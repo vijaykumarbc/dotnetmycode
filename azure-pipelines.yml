@@ -13,5 +13,4 @@ steps:
     dotnet publish --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSTAGINGDIRECTORY
   failOnStderr: true
   
-  
-    - task: PublishBuildArtifacts@1
+ 
